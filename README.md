@@ -10,15 +10,18 @@ $ gem install edidog
 ## Usage
 
 ```
+# Set Key
+export DATADOG_API_KEY=xxxxxxxxxxxx
+export DATADOG_APP_KEY=xxxxxxxxxxxx
 
 # Get Dashboard List
 > edidog list board
 
 # Get Graph ID
-> edidog list graph -B(--board) dashboard_id,...
+> edidog list graph -B(--board) dashboard_id ...
 
 # Create Timeboard
-> edidog create <dashboard_name> [<graph_id>,...] -D(--description) "<description>" -V(--variables) key=default_value,... -R(--readonly) true|false
+> edidog create <dashboard_name> [<graph_id> ...] -D(--description) "<description>" -V(--variables) key:default_value ...
 
 # Update Timeboard Graphs
 > edidog update <dashboard_id> -D(--delete) <graph_id>,... -A(--add) <graph_id>,...
