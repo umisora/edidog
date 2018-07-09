@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["umisora"]
   spec.email         = ["iemon.goemon.mon2.72@gmail.com"]
 
-  spec.summary       = %q{TOBE: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TOBE: Write a longer description or delete this line.}
-  spec.homepage      = "TOBE: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Easy editing tool of Datadog Dashboard. Easy copy graphs.}
+  spec.description   = %q{Easy editing tool of Datadog Dashboard. Easy copy graphs.}
+  spec.homepage      = "https://github.com/umisora/edidog"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
